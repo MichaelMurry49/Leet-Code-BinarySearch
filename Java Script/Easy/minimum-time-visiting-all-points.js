@@ -9,6 +9,9 @@ var minTimeToVisitAllPoints = function (points)
     // check virtical distance
     // add the larger distance
 
+    // Time complexity: O(n)
+    // Space complexity: O(1)
+
     let distance = 0;
     for (let i = 0; i < points.length - 1; i++) 
     {
