@@ -1,2 +1,2 @@
 # Leet-Code
-Leetcode problems are in the leetcode folder
+At this point in time, Leetcode problems are in the JavaScript/Easy folder
