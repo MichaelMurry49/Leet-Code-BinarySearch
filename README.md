@@ -1,4 +1,6 @@
 # Leet-Code/Binary-Search
-At this point in time, Leetcode problems are in the JavaScript/Easy folder
+At this point in time, Leetcode problems are in the JavaScript/Easy folder.
 
-The problems not in the folder are from binarysearch
+The problems not in the folder are from binarysearch.
+
+
