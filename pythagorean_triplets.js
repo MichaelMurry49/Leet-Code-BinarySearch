@@ -1,14 +1,12 @@
 class Solution {
     solve(nums) {
-        
         let vals = new Set();
+        
         for(let n of nums) {
             vals.add(n);
         }
 
         nums.sort((a,b) => a-b);
-
-        // console.log(vals, nums)
 
         for(let i = 0; i < nums.length; i++) {
             for(let j = i+1; j < nums.length; j++) {
@@ -19,7 +17,6 @@ class Solution {
             }
         } 
 
-        return false;
-        
+        return false; 
     }
 }
