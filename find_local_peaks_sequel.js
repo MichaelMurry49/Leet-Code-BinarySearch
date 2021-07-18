@@ -7,7 +7,6 @@ class Solution {
             if(cur.length >= 1) {
                 if(nums[cur[0]] === nums[i]) {
                     cur.push(i);
-                    // console.log(i, "a")
                     if(i === nums.length-1) {
                         if(cur[0] !== 0) peaks = peaks.concat(cur)
                     }
@@ -15,10 +14,8 @@ class Solution {
                 } else if(nums[cur[0]] > nums[i]) {
                     peaks = peaks.concat(cur);
                     cur = [];
-                    // console.log(i, "b")
                     continue;
                 } else if(nums[cur[0]] < nums[i]) {
-                    // console.log(i, "c")
                     cur = [];
                 }
             }
@@ -46,13 +43,8 @@ class Solution {
                 if(nums[i] === nums[i+1] && nums[i] > nums[i-1]) {
                     cur.push(i)
                 }
-                // if(cur.length > 0)
             }
-            // console.log(cur)
         }
-        // console.log(cur)
         return peaks;
     }
-    // [2,5,5,5,3,8,8]
-    //
 }
