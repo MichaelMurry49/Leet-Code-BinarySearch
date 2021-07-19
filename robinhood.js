@@ -12,7 +12,7 @@ class Solution {
                 val += (val * (o/100))
                 alt = "e"
             }
-
+            
             count++;
         }
         return count;
