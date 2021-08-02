@@ -11,13 +11,9 @@ var modifyString = function(s) {
             } else if(i < s.length-1 && s[i+1] === "a") {
                 i > 0 && s[i-1] === "b" ? s[i] = "c" : s[i] = "b"
             } else {
-                // console.log("hi", i, s[i])
                 s[i] = "a"
-                // console.log(s[i])
-                // console.log(s)
             }
         }
     }
     return s.join("");
-    
 };
