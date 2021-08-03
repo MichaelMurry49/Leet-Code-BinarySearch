@@ -20,10 +20,12 @@ var hasAlternatingBits = function (n)
 
     let value = 0;
     let i = 1;
+    
     while (value < n) 
     {
         value = (value * 2) + i;
         i = (i + 1) % 2;
     }
+    
     return value === n;
 };
