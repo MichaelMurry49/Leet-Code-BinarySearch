@@ -19,8 +19,6 @@ class Solution {
             if(allWork) return true;
         }
 
-
-        // console.log(counts, max)
         return false;
     }
 }
