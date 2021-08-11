@@ -9,8 +9,8 @@ class Solution {
         }
 
         let keys = Object.keys(counts);
-
         let allWork = false;
+        
         for(let i = 2; i <= max; i++) {
             for(let j = 0; j < keys.length; j++) {
                 if(counts[keys[j]] % i !== 0) break;
