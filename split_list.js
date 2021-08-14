@@ -2,7 +2,6 @@ class Solution {
     solve(nums) {
         let forwardMax = [];
         let backwardMin = [];
-
         let fmax = nums[0];
         let bmin = nums[nums.length-1];
         
