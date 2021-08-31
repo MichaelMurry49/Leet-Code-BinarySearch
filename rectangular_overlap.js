@@ -14,6 +14,7 @@ class Solution {
             // check y range
             if((y0 > ya && y0 < yb) || (y1 > ya && y1 < yb) || (y0 <= ya && y1 >= yb)) return true;
         }
+        
         return false;
     }
 }
