@@ -16,6 +16,7 @@ class Solution {
                 if(counts[keys[j]] % i !== 0) break;
                 if(j === keys.length - 1) allWork = true;
             }
+            
             if(allWork) return true;
         }
 
