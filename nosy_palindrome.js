@@ -20,11 +20,9 @@ class Solution {
                 end--;
                 continue;
             }
-
             return false;
 
         } 
-
         return true;
     }
 }
