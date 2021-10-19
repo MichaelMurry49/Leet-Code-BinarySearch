@@ -11,6 +11,7 @@ class Solution {
         let even = false;
         let last = -1;
         let cur = node;
+        
         while(cur) {
             if(even) {
                 cur.val = last;
