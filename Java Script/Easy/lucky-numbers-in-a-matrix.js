@@ -3,7 +3,6 @@
  * @return {number[]}
  */
 var luckyNumbers = function (matrix) {
-    // Plan 1:
 
     // Create output array
     // Create column max array that stores the max value of a column and the row index in a sub array
