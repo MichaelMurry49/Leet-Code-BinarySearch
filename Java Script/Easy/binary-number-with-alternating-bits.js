@@ -4,7 +4,7 @@
  */
 var hasAlternatingBits = function (n) 
 {
-    // Check for patern
+    // Check for paterns
 
     // values with alternating digits: 0 (0), 1 (1), 10 (2), 101 (5), 1010 (10), 10101 (21), 101010 (42), 1010101 (85)
     // pattern is 2x if odd or 2x + 1 if even
