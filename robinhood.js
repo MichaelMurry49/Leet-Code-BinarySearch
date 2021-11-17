@@ -6,11 +6,11 @@ class Solution {
 
         while(val < t) {
             if(alt === "e") {
-                val += (val * (e/100))
-                alt = "o"
+                val += (val * (e/100));
+                alt = "o";
             } else {
-                val += (val * (o/100))
-                alt = "e"
+                val += (val * (o/100));
+                alt = "e";
             }
             
             count++;
