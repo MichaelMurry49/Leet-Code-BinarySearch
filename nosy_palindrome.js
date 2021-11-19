@@ -2,7 +2,7 @@ class Solution {
     solve(s) {
         let start = 0;
         let end = s.length-1;
-        let nums = "1234567890"
+        let nums = "1234567890";
 
         while(start <= end) {
             if(nums.includes(s[start]) || s[start] !== s[start].toLowerCase()) {
