@@ -6,11 +6,11 @@ class Solution {
 
         for(let i = 0; i < s.length; i++) {
             if(s[i] === cur) {
-                count++
+                count++;
             } else {
                 cur = s[i];
                 if(count >= 3) {
-                    let val = Math.floor(count/3)
+                    let val = Math.floor(count/3);
                     moves += val;
                 }
                 count = 1;
@@ -18,7 +18,7 @@ class Solution {
         }
 
         if(count >= 3) {
-            let val = Math.floor(count/3)
+            let val = Math.floor(count/3);
             moves += val;
         }
 
