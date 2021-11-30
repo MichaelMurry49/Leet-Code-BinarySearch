@@ -13,6 +13,7 @@ var minTimeToVisitAllPoints = function (points)
     // Space complexity: O(1)
 
     let distance = 0;
+    
     for (let i = 0; i < points.length - 1; i++) 
     {
         let h = Math.abs(points[i][1] - points[i + 1][1]);
