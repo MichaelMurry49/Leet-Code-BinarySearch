@@ -9,7 +9,7 @@ class Solution {
                 if(nums[cur[0]] === nums[i]) {
                     cur.push(i);
                     if(i === nums.length-1) {
-                        if(cur[0] !== 0) peaks = peaks.concat(cur)
+                        if(cur[0] !== 0) peaks = peaks.concat(cur);
                     }
                     continue;
                 } else if(nums[cur[0]] > nums[i]) {
@@ -25,7 +25,7 @@ class Solution {
                 if(nums[1] < nums[0]) {
                     peaks.push(0);
                 } else if(nums[1] === nums[0]) {
-                    cur.push(0)
+                    cur.push(0);
                 }
             } else if(i === nums.length-1) {
                 if(nums[i-1] < nums[i]) {
@@ -43,7 +43,7 @@ class Solution {
                 }
 
                 if(nums[i] === nums[i+1] && nums[i] > nums[i-1]) {
-                    cur.push(i)
+                    cur.push(i);
                 }
             }
         }
