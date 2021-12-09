@@ -19,6 +19,7 @@ class Solution {
                 last = cur.val;
                 if(cur.next) cur.val = cur.next.val;
             }
+            
             even = !even;
             cur = cur.next;
         }
