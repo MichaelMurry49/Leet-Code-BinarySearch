@@ -1,5 +1,4 @@
-## LeetCode-BinarySearch:
-------------------------------------------------
+# LeetCode-BinarySearch:
 
 At this point in time, Leetcode problems are in the JavaScript/Easy folder
 
