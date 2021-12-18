@@ -27,5 +27,6 @@ var checkIfExist = function (arr)
     { 
         if (halves.has(arr[i] / 2) && arr[i] !== 0) return true;
     }
+    
     return false;
 };
