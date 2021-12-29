@@ -6,9 +6,10 @@
 var search = function(nums, target) {
     let start = 0;
     let end = nums.length-1;
+    
     while(start <= end) {
         let mid = Math.floor(((end-start+1)/2)) + start;
-        // console.log(mid, start, end)
+        
         if(nums[mid] === target) {
             return mid;
         }
