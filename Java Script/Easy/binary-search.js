@@ -20,5 +20,6 @@ var search = function(nums, target) {
             start = mid+1;
         }
     }
+    
     return -1;
 };
